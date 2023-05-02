@@ -23,7 +23,7 @@ const config = {
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://skillor.github.io/me',
+    website: '',
     phone: '',
     email: 'skillor@gmx.net',
   },
