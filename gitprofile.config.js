@@ -25,7 +25,7 @@ const config = {
     telegram: '',
     website: 'https://skillor.github.io/me',
     phone: '',
-    email: 'skillor@gmx.ne',
+    email: 'skillor@gmx.net',
   },
   resume: {
     fileUrl:
@@ -41,7 +41,7 @@ const config = {
     'Tailwind',
   ],
   experiences: [
-    {
+    /* {
       company: 'Company Name',
       position: 'Position',
       from: 'September 2021',
@@ -54,7 +54,7 @@ const config = {
       from: 'July 2019',
       to: 'August 2021',
       companyLink: 'https://example.com',
-    },
+    }, */
   ],
   /* certifications: [
     {
@@ -65,7 +65,7 @@ const config = {
     },
   ], */
   education: [
-    {
+    /* {
       institution: 'Institution Name',
       degree: 'Degree',
       from: '2015',
@@ -76,12 +76,12 @@ const config = {
       degree: 'Degree',
       from: '2012',
       to: '2014',
-    },
+    }, */
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    {
+    /* {
       title: 'Project Name',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
@@ -94,7 +94,7 @@ const config = {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
-    },
+    }, */
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
