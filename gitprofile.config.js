@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'skillor', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,40 +11,33 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: '',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://skillor.github.io/me',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'skillor@gmx.ne',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
+    'Python',
+    'Javascript',
+    'Angular',
+    'Java',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
+    'Git',
     'Tailwind',
   ],
   experiences: [
@@ -106,7 +99,7 @@ const config = {
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -118,24 +111,24 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'winter',
+    defaultTheme: 'light',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Hide the ring in Profile picture
-    hideAvatarRing: false,
+    hideAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
       'dark',
-      'cupcake',
+      /* 'cupcake',
       'bumblebee',
       'emerald',
       'corporate',
@@ -162,11 +155,11 @@ const config = {
       'night',
       'coffee',
       'winter',
-      'procyon',
+      'procyon', */
     ],
 
     // Custom theme
-    customTheme: {
+    /* customTheme: {
       primary: '#fc055b',
       secondary: '#219aaf',
       accent: '#e8d03a',
@@ -174,15 +167,15 @@ const config = {
       'base-100': '#E3E3ED',
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
-    },
+    }, */
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  /* footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a> and ❤️`, */
 };
 
 export default config;
