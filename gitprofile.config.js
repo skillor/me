@@ -6,8 +6,8 @@ const config = {
     sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: true, // Forked projects will not be displayed if set to true.
-      projects: ['me', 'skillor'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      forks: false, // Forked projects will not be displayed if set to true.
+      projects: ['me', 'skillor', 'skillor.github.io'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
